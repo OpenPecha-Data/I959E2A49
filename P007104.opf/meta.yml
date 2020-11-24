@@ -3,5 +3,18 @@ initial_creation_type: ocr
 source_metadata:
   id: bdr:W1AC39
   title: དཔལ་རྡོ་རྗེ་འཇིགས་བྱེད་ཆེན་པོའི་དབང་བཤད་སྐུ་གསུམ་རིན་ཆེན་བང་མཛོད།
-  volume: ''
+  volume:
+    244304e0a3754e8297a7b62d92ae182f:
+      image_group_id: I2PD18861
+      title: Volume 1 of dpal rdo rje 'jigs byed chen po'i dbang bshad sku gsum rin
+        chen bang mdzod/
+      volume_number: 1
+      total_pages: 338
   author: ''
+ebook_metadata:
+  title: དཔལ་རྡོ་རྗེ་འཇིགས་བྱེད་ཆེན་པོའི་དབང་བཤད་སྐུ་གསུམ་རིན་ཆེན་བང་མཛོད།
+  author: ''
+  sku: P007104
+  cover: cover.jpg
+  layers:
+  - pagination
