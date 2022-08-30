@@ -1,28 +1,50 @@
 id: I959E2A49
+legacy_id: P007104
+ocr_import_info:
+  bdrc_scan_id: W1AC39
+  source: bdrc
+  ocr_info:
+    timestamp: '2020-03-31T11:30:49'
+    imagesfolder: images
+  batch_id: batch001
+  software_id: vision
+  expected_default_language: bo
+  op_import_options: {}
+  op_import_version: 1.0.0
+default_language: bo
 source: https://library.bdrc.io
 source_file: null
 initial_creation_type: ocr
-imported: '2020-03-31T11:32:55+00:00'
-last_modified: '2022-06-09T04:55:52.548532+00:00'
-parser: https://github.com/OpenPecha-dev/openpecha-toolkit/blob/231bba39dd1ba393320de82d4d08a604aabe80fc/openpecha/formatters/google_orc.py
+imported: '2022-08-30T18:15:45.531984+00:00'
+last_modified: 2022-08-31 02:16:15.901846
+parser: https://github.com/OpenPecha/Toolkit/blob/7f57883d84bc10351527a49ee6ce970ace404e50/openpecha/formatters/google_ocr.py
 source_metadata:
-  id: bdr:W1AC39
-  title: དཔལ་རྡོ་རྗེ་འཇིགས་བྱེད་ཆེན་པོའི་དབང་བཤད་སྐུ་གསུམ་རིན་ཆེན་བང་མཛོད།
-  author: ''
+  id: http://purl.bdrc.io/resource/W1AC39
+  status: http://purl.bdrc.io/admindata/StatusReleased
   access: http://purl.bdrc.io/admindata/AccessOpen
-  restrictedInChina: false
-  base:
-    6ADF:
-      image_group_id: I2PD18861
-      title: Volume 1 of dpal rdo rje 'jigs byed chen po'i dbang bshad sku gsum rin
-        chen bang mdzod/
+  reproduction_of: http://purl.bdrc.io/resource/MW1AC39
+  copyright_status: http://purl.bdrc.io/resource/CopyrightPublicDomain
+  title: དཔལ་རྡོ་རྗེ་འཇིགས་བྱེད་ཆེན་པོའི་དབང་བཤད་སྐུ་གསུམ་རིན་ཆེན་བང་མཛོད།
+  author: ཏཱ་ལའི་བླ་མ ༠༧་བསྐལ་བཟང་རྒྱ་མཚོ།
+statistics:
+  ocr_word_mean_confidence_index: 0.7176067204668274
+  ocr_word_median_confidence_index: 0.9599999785423279
+quality: null
+bases:
+  I2PD18861:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I2PD18861
       total_pages: 338
-      order: 1
-      base_file: 6ADF.txt
-statistics: {}
-quality: {}
+      volume_number: 1
+      volume_pages_bdrc_intro: 2
+    order: 1
+    base_file: I2PD18861.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9599999785423279
+      ocr_word_mean_confidence_index: 0.7176067204668274
+    legacy_id: v001
 copyright:
-  status: Unknown
-  notice: ''
-  info_url: null
-license: null
+  status: Public domain
+  notice: Public domain
+  info_url: https://creativecommons.org/publicdomain/mark/1.0/
+license: CC0
